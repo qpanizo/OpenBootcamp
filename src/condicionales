@@ -1,0 +1,84 @@
+//Ejercicios Tema 4 - Quimer panizo
+//Ejercicio 1. Usando If -- Quimer
+/*
+public class Main {
+    public static void main(String[] args){
+        int numero = 0;
+        if (numero == 0){
+            System.out.println("El numero es igual a 0");
+        } else if (numero < 0) {
+            System.out.println("El numero es Negativo");
+        } else {
+            System.out.println("El numero es Positivo");
+        }
+
+    }
+}
+*/
+//2do Ejercicio WHILE
+/*
+public class Main {
+    public static void main(String[] args) {
+         int contador = 0;
+
+         while (contador < 3  ){
+             System.out.println(contador);
+                contador = contador +1;
+         }
+
+    }
+}
+*/
+//3er Ejercicio  D0-WHILE
+/*
+public class Main {
+    public static void main(String[] args) {
+        int contador = 3;
+        do {
+            System.out.println(contador);
+            contador = contador + 1;
+        }while(contador < 3);
+
+    }
+}
+*/
+
+//3er Ejercicio  for
+
+/*
+public class Main {
+    public static void main(String[] args) {
+
+        for (int numeroFor = 0; numeroFor <= 3; numeroFor=numeroFor+1){
+            System.out.println(numeroFor);
+        }
+
+    }
+}
+ */
+
+//4to Ejercicio Switch
+
+public class Main {
+    public static void main(String[] args){
+        String Estación = "Otoño";
+        switch (Estación){
+            case "Primavera":
+                System.out.println("Es Primavera");
+            break;
+            case "Verano":
+                System.out.println("Es Verano");
+            break;
+            case "Otoño":
+                System.out.println("Es Otoño");
+            break;
+            case "Invierno":
+                System.out.println("Es Invierno");
+            break;
+            default:
+                System.out.println(Estación);
+
+        }
+        
+    }
+}
